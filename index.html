@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>纹境麻将 隐私政策 · Nuqush Mahjong Privacy Policy · سياسة الخصوصية</title>
+<style>
+  :root {
+    --bg: #f7f5ef;
+    --surface: #ffffff;
+    --text: #1d2b28;
+    --muted: #5a6b66;
+    --accent: #1f4e79;
+    --border: #d9d5c9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1c1e;
+      --surface: #14282a;
+      --text: #eef2ef;
+      --muted: #a8bcb6;
+      --accent: #7fc4b4;
+      --border: #23413f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 1rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+          "Noto Sans Arabic", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  header { padding: 2.5rem 0 1rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem; color: var(--accent); }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .5rem; }
+  .updated { color: var(--muted); font-size: .9rem; }
+  nav { margin: 1.5rem 0; display: flex; gap: .5rem; flex-wrap: wrap; }
+  nav a {
+    padding: .4rem .9rem; border: 1px solid var(--border); border-radius: 999px;
+    text-decoration: none; color: var(--accent); background: var(--surface);
+  }
+  section { border-top: 1px solid var(--border); padding-top: 1rem; }
+  section[dir="rtl"] { text-align: right; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .93rem; }
+  th, td { border: 1px solid var(--border); padding: .5rem .6rem; text-align: start; vertical-align: top; }
+  th { background: var(--surface); }
+  .wrap { overflow-x: auto; }
+  code { background: var(--surface); padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>纹境麻将 · Nuqush Mahjong · ماهجونغ نقوش</h1>
+  <p class="updated">最后更新 / Last updated / آخر تحديث: 2026-08-01</p>
+  <nav>
+    <a href="#zh">简体中文</a>
+    <a href="#en">English</a>
+    <a href="#ar">العربية</a>
+  </nav>
+</header>
+
+<!-- ===================== 简体中文 ===================== -->
+<section id="zh" lang="zh-Hans">
+<h2>隐私政策（简体中文）</h2>
+
+<p>本政策说明 Nuqush Games（“我们”）开发的手机游戏《纹境麻将》（下称“本游戏”）如何处理你的信息。本游戏无需注册账号即可离线游玩。</p>
+
+<h3>1. 我们不收集的信息</h3>
+<p>本游戏不要求也不收集你的姓名、邮箱、电话号码、通讯录、短信、照片、精确位置或支付卡信息。游戏内没有聊天、社交或用户生成内容功能。</p>
+
+<h3>2. 仅保存在你设备上的数据</h3>
+<p>以下数据保存在你的设备本地，不会上传到我们的服务器：关卡进度与星级、金币余额、每日挑战与签到状态、进行中的牌局快照、音效／音乐／触感／动效／语言设置，以及你在本政策下作出的隐私选择。卸载本游戏即会删除这些数据。</p>
+
+<h3>3. 两类可选数据用途</h3>
+<p>本游戏把可选数据用途拆成两个独立开关，<strong>默认均为关闭</strong>。首次启动时会请你作出选择，之后可随时在「游戏设置 → 数据与隐私」中修改。</p>
+
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>开关</th><th>开启后启用</th><th>处理的数据</th><th>目的</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>分析与崩溃报告</td>
+      <td>Google Firebase Analytics、Firebase Crashlytics</td>
+      <td>应用互动事件（关卡开始／完成、用时、提示与洗牌次数等）、崩溃与诊断日志、设备型号与系统版本、Firebase 安装标识符、由 IP 推断的大致地区</td>
+      <td>了解玩家如何使用游戏、定位崩溃与性能问题</td>
+    </tr>
+    <tr>
+      <td>广告与奖励视频</td>
+      <td>AppLovin MAX 及其聚合网络（Google AdMob、Unity Ads）</td>
+      <td>广告标识符、设备与网络诊断信息、广告展示与点击事件、由 IP 推断的大致地区</td>
+      <td>投放插屏与激励视频广告、衡量广告效果、反欺诈</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>两个开关都关闭时，本游戏不会初始化 Firebase，也不会请求广告，完全在本地运行。Firebase 的自动采集在 Android 清单中已默认关闭（<code>firebase_analytics_collection_enabled=false</code>、<code>firebase_crashlytics_collection_enabled=false</code>、<code>google_analytics_adid_collection_enabled=false</code>）。</p>
+
+<h3>4. 个性化广告与地区同意</h3>
+<p>当你允许广告服务后，AppLovin MAX 内置的 Google 用户消息平台（UMP／CMP）会根据你所在地区决定是否需要额外征求同意。在欧洲经济区、英国等适用地区，你可以选择接受、拒绝或通过「管理选项」逐项设置；拒绝个性化后仍会展示非个性化广告。你可以随时在「游戏设置 → 数据与隐私」中重新打开该同意面板。</p>
+
+<h3>5. 我们共享数据的对象</h3>
+<p>我们不出售你的个人信息。在你开启对应开关后，数据会由下列第三方按其自身隐私政策处理：</p>
+<ul>
+  <li>Google Firebase（Analytics、Crashlytics、Remote Config）：<a href="https://firebase.google.com/support/privacy/">firebase.google.com/support/privacy</a></li>
+  <li>Google AdMob / Google Mobile Ads：<a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>AppLovin MAX：<a href="https://www.applovin.com/privacy/">applovin.com/privacy</a></li>
+  <li>Unity Ads：<a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+</ul>
+
+<h3>6. 数据保留与删除</h3>
+<p>设备本地数据由你完全控制：卸载游戏或清除应用数据即可删除。已发送给上述第三方的数据按各自政策保留。你可以随时关闭对应开关以停止后续收集。如需就已收集数据行使访问或删除权利，请通过下方邮箱联系我们，我们会在合理期限内响应并在必要时协助你向相应第三方提出请求。</p>
+
+<h3>7. 儿童</h3>
+<p>本游戏不面向 13 岁以下（或你所在司法辖区规定的等效年龄）儿童，我们也不会有意收集其信息。若你认为儿童向我们提供了信息，请联系我们。</p>
+
+<h3>8. 安全</h3>
+<p>与上述第三方之间的数据传输均使用 TLS 加密。</p>
+
+<h3>9. 政策变更</h3>
+<p>如果我们更改数据用途，会更新本页面并提高游戏内政策版本号，届时会请你重新作出选择。</p>
+
+<h3>10. 联系我们</h3>
+<p>Nuqush Games — <a href="mailto:leiyannan91@gmail.com">leiyannan91@gmail.com</a></p>
+</section>
+
+<!-- ===================== English ===================== -->
+<section id="en" lang="en">
+<h2>Privacy Policy (English)</h2>
+
+<p>This policy explains how Nuqush Games ("we") handles your information in the mobile game Nuqush Mahjong (the "Game"). The Game is playable offline and requires no account.</p>
+
+<h3>1. What we do not collect</h3>
+<p>The Game does not request or collect your name, email address, phone number, contacts, messages, photos, precise location, or payment card details. There is no chat, social, or user-generated content feature.</p>
+
+<h3>2. Data kept only on your device</h3>
+<p>The following stays local to your device and is never uploaded to our servers: level progress and star ratings, coin balance, daily challenge and sign-in state, in-progress board snapshots, sound/music/haptics/motion/language settings, and the privacy choices you make under this policy. Uninstalling the Game deletes them.</p>
+
+<h3>3. Two optional data purposes</h3>
+<p>The Game splits optional data use into two independent switches, <strong>both off by default</strong>. You are asked to choose on first launch and can change your mind at any time under Settings → Data &amp; Privacy.</p>
+
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>Switch</th><th>Enables</th><th>Data processed</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Analytics &amp; crash reports</td>
+      <td>Google Firebase Analytics, Firebase Crashlytics</td>
+      <td>App interaction events (level start/complete, duration, hint and shuffle counts), crash and diagnostic logs, device model and OS version, Firebase installation identifier, coarse region inferred from IP</td>
+      <td>Understand how the Game is played; find crashes and performance problems</td>
+    </tr>
+    <tr>
+      <td>Ads &amp; rewarded video</td>
+      <td>AppLovin MAX and its mediated networks (Google AdMob, Unity Ads)</td>
+      <td>Advertising identifier, device and network diagnostics, ad impression and click events, coarse region inferred from IP</td>
+      <td>Serve interstitial and rewarded ads, measure ad performance, prevent fraud</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>With both switches off, the Game does not initialise Firebase and does not request ads; it runs entirely locally. Firebase automatic collection is disabled by default in the Android manifest (<code>firebase_analytics_collection_enabled=false</code>, <code>firebase_crashlytics_collection_enabled=false</code>, <code>google_analytics_adid_collection_enabled=false</code>).</p>
+
+<h3>4. Personalised ads and regional consent</h3>
+<p>Once you allow ad services, Google's User Messaging Platform (UMP/CMP), bundled with AppLovin MAX, determines whether additional consent is required for your region. In the EEA, the UK, and other applicable regions you may accept, reject, or use "Manage options" to choose per purpose. Rejecting personalisation still allows non-personalised ads. You can reopen the consent panel at any time under Settings → Data &amp; Privacy.</p>
+
+<h3>5. Who we share data with</h3>
+<p>We do not sell your personal information. When you enable the corresponding switch, data is processed by the following third parties under their own privacy policies:</p>
+<ul>
+  <li>Google Firebase (Analytics, Crashlytics, Remote Config): <a href="https://firebase.google.com/support/privacy/">firebase.google.com/support/privacy</a></li>
+  <li>Google AdMob / Google Mobile Ads: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>AppLovin MAX: <a href="https://www.applovin.com/privacy/">applovin.com/privacy</a></li>
+  <li>Unity Ads: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+</ul>
+
+<h3>6. Retention and deletion</h3>
+<p>Device-local data is entirely under your control: uninstall the Game or clear its app data to delete it. Data already sent to the third parties above is retained under their policies. You may turn the relevant switch off at any time to stop further collection. To exercise access or deletion rights over data already collected, contact us at the address below; we will respond within a reasonable period and, where needed, help you direct the request to the relevant third party.</p>
+
+<h3>7. Children</h3>
+<p>The Game is not directed at children under 13 (or the equivalent age in your jurisdiction) and we do not knowingly collect their information. If you believe a child has provided us with information, please contact us.</p>
+
+<h3>8. Security</h3>
+<p>All transmission to the third parties above uses TLS encryption.</p>
+
+<h3>9. Changes to this policy</h3>
+<p>If we change how data is used we will update this page and raise the in-game policy version, which asks you to make your choices again.</p>
+
+<h3>10. Contact</h3>
+<p>Nuqush Games — <a href="mailto:leiyannan91@gmail.com">leiyannan91@gmail.com</a></p>
+</section>
+
+<!-- ===================== العربية ===================== -->
+<section id="ar" lang="ar" dir="rtl">
+<h2>سياسة الخصوصية (العربية)</h2>
+
+<p>توضّح هذه السياسة كيفية تعامل Nuqush Games («نحن») مع معلوماتك في لعبة الهاتف «ماهجونغ نقوش» («اللعبة»). يمكن لعب اللعبة دون اتصال بالإنترنت ودون إنشاء حساب.</p>
+
+<h3>١. ما لا نجمعه</h3>
+<p>لا تطلب اللعبة ولا تجمع اسمك أو بريدك الإلكتروني أو رقم هاتفك أو جهات اتصالك أو رسائلك أو صورك أو موقعك الدقيق أو بيانات بطاقات الدفع. لا تتضمّن اللعبة دردشة أو ميزات اجتماعية أو محتوى ينشئه المستخدم.</p>
+
+<h3>٢. بيانات تُحفظ على جهازك فقط</h3>
+<p>تبقى البيانات التالية على جهازك ولا تُرفع إلى خوادمنا: تقدّم المراحل وتقييم النجوم، رصيد العملات، حالة التحدي اليومي وتسجيل الدخول اليومي، لقطات اللوحات قيد اللعب، إعدادات الصوت والموسيقى والاهتزاز والحركة واللغة، والخيارات التي تحدّدها ضمن هذه السياسة. تؤدي إزالة اللعبة إلى حذفها.</p>
+
+<h3>٣. غرضان اختياريان للبيانات</h3>
+<p>تفصل اللعبة الاستخدام الاختياري للبيانات إلى مفتاحين مستقلين، <strong>كلاهما مُعطَّل افتراضيًا</strong>. يُطلب منك الاختيار عند أول تشغيل، ويمكنك تغييره في أي وقت من «الإعدادات ← البيانات والخصوصية».</p>
+
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>المفتاح</th><th>يُفعّل</th><th>البيانات المعالَجة</th><th>الغرض</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>التحليلات وتقارير الأعطال</td>
+      <td>Google Firebase Analytics و Firebase Crashlytics</td>
+      <td>أحداث التفاعل مع التطبيق (بدء المرحلة وإكمالها، المدة، عدد التلميحات والخلط)، سجلات الأعطال والتشخيص، طراز الجهاز وإصدار النظام، معرّف تثبيت Firebase، المنطقة التقريبية المستنتجة من عنوان IP</td>
+      <td>فهم طريقة لعب اللعبة ومعالجة الأعطال ومشكلات الأداء</td>
+    </tr>
+    <tr>
+      <td>الإعلانات والفيديو المكافئ</td>
+      <td>AppLovin MAX والشبكات الوسيطة التابعة له (Google AdMob و Unity Ads)</td>
+      <td>معرّف الإعلانات، بيانات تشخيص الجهاز والشبكة، أحداث ظهور الإعلانات والنقر عليها، المنطقة التقريبية المستنتجة من عنوان IP</td>
+      <td>عرض الإعلانات البينية والمكافئة، قياس أداء الإعلانات، منع الاحتيال</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>عند تعطيل المفتاحين معًا، لا تُهيّئ اللعبة Firebase ولا تطلب أي إعلانات، وتعمل محليًا بالكامل. الجمع التلقائي في Firebase مُعطَّل افتراضيًا في بيان أندرويد (<code>firebase_analytics_collection_enabled=false</code> و<code>firebase_crashlytics_collection_enabled=false</code> و<code>google_analytics_adid_collection_enabled=false</code>).</p>
+
+<h3>٤. الإعلانات المخصّصة والموافقة حسب المنطقة</h3>
+<p>بعد السماح بخدمات الإعلانات، تحدّد منصة رسائل المستخدم من Google (UMP/CMP) المدمجة مع AppLovin MAX ما إذا كانت هناك حاجة إلى موافقة إضافية في منطقتك. في المنطقة الاقتصادية الأوروبية والمملكة المتحدة والمناطق المعنية الأخرى، يمكنك القبول أو الرفض أو استخدام «إدارة الخيارات» للاختيار لكل غرض. رفض التخصيص لا يمنع ظهور إعلانات غير مخصّصة. يمكنك إعادة فتح لوحة الموافقة في أي وقت من «الإعدادات ← البيانات والخصوصية».</p>
+
+<h3>٥. الجهات التي نشارك معها البيانات</h3>
+<p>نحن لا نبيع معلوماتك الشخصية. عند تفعيلك المفتاح المعني، تعالِج الجهات التالية البيانات وفق سياسات الخصوصية الخاصة بها:</p>
+<ul>
+  <li>Google Firebase (Analytics و Crashlytics و Remote Config): <a href="https://firebase.google.com/support/privacy/">firebase.google.com/support/privacy</a></li>
+  <li>Google AdMob / Google Mobile Ads: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>AppLovin MAX: <a href="https://www.applovin.com/privacy/">applovin.com/privacy</a></li>
+  <li>Unity Ads: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+</ul>
+
+<h3>٦. الاحتفاظ بالبيانات وحذفها</h3>
+<p>البيانات المحفوظة على الجهاز تحت سيطرتك الكاملة: إزالة اللعبة أو مسح بيانات التطبيق يحذفها. أما البيانات التي أُرسلت بالفعل إلى الجهات المذكورة أعلاه فيُحتفظ بها وفق سياساتها. يمكنك تعطيل المفتاح المعني في أي وقت لإيقاف الجمع اللاحق. لممارسة حقوق الوصول أو الحذف بشأن بيانات جُمعت سابقًا، تواصل معنا عبر البريد أدناه؛ سنردّ خلال مدة معقولة وسنساعدك عند الحاجة في توجيه الطلب إلى الجهة المعنية.</p>
+
+<h3>٧. الأطفال</h3>
+<p>اللعبة غير موجّهة للأطفال دون سنّ الثالثة عشرة (أو السنّ المكافئ في ولايتك القضائية)، ولا نجمع معلوماتهم عن قصد. إذا كنت تعتقد أن طفلًا قدّم لنا معلومات، يُرجى التواصل معنا.</p>
+
+<h3>٨. الأمان</h3>
+<p>يجري نقل جميع البيانات إلى الجهات المذكورة أعلاه باستخدام تشفير TLS.</p>
+
+<h3>٩. تغييرات هذه السياسة</h3>
+<p>إذا غيّرنا أغراض استخدام البيانات، فسنحدّث هذه الصفحة ونرفع رقم إصدار السياسة داخل اللعبة، وعندها سيُطلب منك تحديد خياراتك من جديد.</p>
+
+<h3>١٠. التواصل</h3>
+<p>Nuqush Games — <a href="mailto:leiyannan91@gmail.com">leiyannan91@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Nuqush Games</p>
+</footer>
+
+</main>
+</body>
+</html>
